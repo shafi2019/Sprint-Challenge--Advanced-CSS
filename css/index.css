@@ -1,3 +1,7 @@
+#navbar {
+  text-decoration: none;
+  color: black;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,6 +164,14 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.header-class {
+  background: #f4f4f4;
+  text-align: center;
+}
+.header-class a {
+  text-decoration: none;
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +181,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header-class h1 {
+  font-size: 4.2rem;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.header-class a {
+  font-size: 2rem;
+  margin-inline-start: 2%;
 }
 .home .intro h2 {
   padding: 15px;
