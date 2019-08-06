@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Answer: While responsive site designs are guaranteed to work well on any screen size, adaptive designs only work on as many screens as its layouts are able to. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Answer: mobile first means a very focused approach that begins with designing for the main function of the site, then aims for higher resolutions and desktop first means that designing for the highest specifications — the best achievable by design- and then going down to smaller resolutions.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Answer: One reason is that it comes in handy whey you're using media queries and want to reduce type and padding/margin sizes for mobile. When things are in rem, (font sizes, padding, margins etc) you can change the body font-size from 62.5% to 50%, for example, and everything is scaled proportionately across the site and usually browsers have a 16px defualt font-size.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Answer: In preprocessing we use less in our CSS and with the help of CSS we make alot easier and organize our code and we can make Variables, Mixison and call them in our code.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Answer: The most favarite part it that you can put the codes in very organized way and like you can add code for like H1 or eals inside of the same Div class and code for Media Quiry and the trouble with it is you should be very carful to not make a single mistake like adding an extra : } ) ; the whole code will not work. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
